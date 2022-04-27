@@ -174,3 +174,38 @@ a{
     font-family: 'RobotoRegular';
     font-size: 14px;
 }
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-link{
+    color: lightgray;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.footer__info{
+    margin-top: 55px;
+    font-family: 'RobotoRegular';
+    font-size: 14px;
+}
+.footer__info >p{
+    color: lightgray;
+}
+.footer__helpinglinks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    font-family: 'RobotoRegular';
+    font-size: 12px;
+}
+.footer-link{
+    margin-top: 5px;
+}
+.helpinglinks-link{
+    margin-bottom: 5px;
+    color: #000000;
+}
+.helpinglinks-link:hover{
+    color: #0A143A;
+}
