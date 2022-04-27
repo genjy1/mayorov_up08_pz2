@@ -1,5 +1,33 @@
 @import url(/assets/css/settings.css);
-.content{
-    margin: 0 auto;
-    max-width: 1146px;
+*{
+    color: #0A143A;
+}
+.header{
+    margin-top:30px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-list{
+    display: flex;
+}
+.list-item{
+    list-style-type: none;
+}
+.list-item:not(:last-child){
+    margin-right: 14px;
+}
+.header__declaration{
+    color: white;
+    background-color: #256EEB;
+    width: 161px;
+    border:none ;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+.header-logo::before{
+    content: url(../../assets/icons/box\ 1.svg);
+}
+a{
+    text-decoration: none;
 }
