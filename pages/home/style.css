@@ -67,9 +67,6 @@ a{
     padding-top: 14px;
     padding-bottom: 14px;
 }
-.searchform-input:focus{
-    
-}
 ::placeholder{
     font-family: 'RobotoRegular';
     opacity: 0.4;
@@ -91,4 +88,67 @@ a{
     font-family: 'RobotoRegular';
     font-size: 14px;
     margin-left: 5px;
+}
+.main{
+    margin-top: 42px;
+}
+.main-head{
+    font-family: 'RobotoBold';
+    font-size: 24px;
+}
+.main__wrapper{
+    margin-top: 25px;
+    display: flex;
+}
+.wrapper__cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 852px;
+}
+.cards__items{
+    display: flex;
+    margin-bottom: 20px;
+}
+.cards__item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.item__textitems{
+    margin-top: 12px;
+}
+.textitems-link{
+    font-family: 'RobotoBold';
+    font-size: 16px;
+    color: #256EEB;
+    margin-bottom:5px ;
+    max-width: 194px;
+}
+.item-favourite{
+    max-width: 15px;
+}
+.textitems-value{
+    font-size:16px ;
+    font-family: 'RobotoBold';
+    font-weight: 700;
+}
+.textitems-adress{
+    margin-top: 10px;
+}
+.textitems-date{
+    margin-top: 5px;
+}
+.textitems-adress ,.textitems-date{
+    font-family: 'RobotoRegular';
+    color: #c4c4c4;
+    font-size: 14px;
+}
+.textitems__linkswrapper{
+    max-width: 261px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-titles{
+    display: flex;
+
 }
