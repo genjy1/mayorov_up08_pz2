@@ -57,3 +57,38 @@ a{
 .header-loginlink{
     margin-right: 25px;
 }
+.searchform{
+    margin-top: 24px;
+}
+.searchform-input{
+    width: 1036px;
+    border: 3px solid #256EEB;
+    border-radius: 5px 0 0 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.searchform-input:focus{
+    
+}
+::placeholder{
+    font-family: 'RobotoRegular';
+    opacity: 0.4;
+    font-size: 14px;
+    padding-left: 21px;
+}
+.searchform-button{
+    background-color: #256EEB;
+    border: 3px solid #256EEB;
+    border-radius:0px 5px 5px 0px ;
+    width: 107px;
+    height: 52px;
+}
+.searchform__label{
+    display: flex;
+}
+.button-span{
+    color: white;
+    font-family: 'RobotoRegular';
+    font-size: 14px;
+    margin-left: 5px;
+}
