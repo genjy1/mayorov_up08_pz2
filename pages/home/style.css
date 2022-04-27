@@ -13,7 +13,6 @@
 .header{
     margin-top:30px ;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .navbar-list{
@@ -38,4 +37,23 @@
 }
 a{
     text-decoration: none;
+    font-family: 'RobotoRegular';
+    font-size: 14px;
+    font-weight: 400;
+}
+.header__declaration{
+    font-family: 'RobotoRegular';
+    font-size: 14px;
+}
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'RobotoBold';
+    margin-right: 20px;
+}
+.header__navbar{
+    margin-right: 452px;
+}
+.header-loginlink{
+    margin-right: 25px;
 }
