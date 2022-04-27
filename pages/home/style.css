@@ -116,6 +116,9 @@ a{
     flex-direction: column;
     margin-right: 30px;
 }
+.services__items > .cards__item:not(:first-child){
+    margin-top: 25px;
+}
 .item__textitems{
     margin-top: 12px;
 }
@@ -153,4 +156,21 @@ a{
 .main-titles{
     display: flex;
 
+}
+.services__items{
+    display: flex;
+    flex-direction: column;
+}
+.item-icon{
+    max-width: 30px;
+    margin-bottom: 7px;
+}
+.item-head{
+    margin-bottom: 5px;
+    font-family: 'RobotoBold';
+    font-size: 14px;
+}
+.item-text{
+    font-family: 'RobotoRegular';
+    font-size: 14px;
 }
