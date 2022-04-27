@@ -100,9 +100,19 @@ a{
     margin-top: 25px;
     display: flex;
 }
+.wrapper__cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 852px;
+}
+.cards__items{
+    display: flex;
+    margin-bottom: 20px;
+}
 .cards__item{
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
 }
 .item__textitems{
     margin-top: 12px;
@@ -112,10 +122,10 @@ a{
     font-size: 16px;
     color: #256EEB;
     margin-bottom:5px ;
+    max-width: 194px;
 }
-.textitems-link::after{
-    content: url(/assets/icons/favourite.svg);
-    margin-left: 119px;
+.item-favourite{
+    max-width: 15px;
 }
 .textitems-value{
     font-size:16px ;
@@ -132,4 +142,13 @@ a{
     font-family: 'RobotoRegular';
     color: #c4c4c4;
     font-size: 14px;
+}
+.textitems__linkswrapper{
+    max-width: 261px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-titles{
+    display: flex;
+
 }
