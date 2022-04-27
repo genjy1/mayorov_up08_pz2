@@ -67,9 +67,6 @@ a{
     padding-top: 14px;
     padding-bottom: 14px;
 }
-.searchform-input:focus{
-    
-}
 ::placeholder{
     font-family: 'RobotoRegular';
     opacity: 0.4;
@@ -91,4 +88,11 @@ a{
     font-family: 'RobotoRegular';
     font-size: 14px;
     margin-left: 5px;
+}
+.main{
+    margin-top: 42px;
+}
+.main-head{
+    font-family: 'RobotoBold';
+    font-size: 24px;
 }
