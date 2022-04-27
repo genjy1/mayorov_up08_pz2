@@ -96,3 +96,40 @@ a{
     font-family: 'RobotoBold';
     font-size: 24px;
 }
+.main__wrapper{
+    margin-top: 25px;
+    display: flex;
+}
+.cards__item{
+    display: flex;
+    flex-direction: column;
+}
+.item__textitems{
+    margin-top: 12px;
+}
+.textitems-link{
+    font-family: 'RobotoBold';
+    font-size: 16px;
+    color: #256EEB;
+    margin-bottom:5px ;
+}
+.textitems-link::after{
+    content: url(/assets/icons/favourite.svg);
+    margin-left: 119px;
+}
+.textitems-value{
+    font-size:16px ;
+    font-family: 'RobotoBold';
+    font-weight: 700;
+}
+.textitems-adress{
+    margin-top: 10px;
+}
+.textitems-date{
+    margin-top: 5px;
+}
+.textitems-adress ,.textitems-date{
+    font-family: 'RobotoRegular';
+    color: #c4c4c4;
+    font-size: 14px;
+}
