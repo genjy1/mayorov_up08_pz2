@@ -54,37 +54,44 @@
     .wrapper__show{
         display: block;
     }
-}
-.burger__wrapper{
-    display: none;
+    .burger{
+        display: block;
+        width: 30px;
+        left: 255px;
+    }
+    .burger::after{
+        width: 30px;
+    }
+    .burger::before{
+        width: 30px;
+    }
 }
 .burger{
-    display: block;
     position: absolute;
     background-color: black;
-    width: 30px;
+    min-width: 0px;
     height: 1.87px;
     border-radius: 50px;
-    margin-left: 129px;
+    
 }
 .burger::before{
     content: ' ';
     position: absolute;
-    top: -5px;
+    top: -8px;
     display: block;
     background-color: black;
-    width: 30px;
+    min-width: 0px;
     height: 1.87px;
     border-radius: 50px;
 }
 .burger::after{
     content: ' ';
     position: absolute;
-    top: 5px;
+    top: 8px;
     display: block;
     background-color: rgb(0, 0, 0);
     letter-spacing: -40px;
-    width: 30px;
+    min-width: 0px;
     height: 1.87px;
     border-radius: 50px;
 }
