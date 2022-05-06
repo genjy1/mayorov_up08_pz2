@@ -15,3 +15,8 @@
     font-size: 14px;
     text-align: left;
 }
+.graytext{
+    color: lightgray;
+    font-family: 'RobotoRegular';
+    font-size: 14px;
+}
